@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (min-height: 700px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #f3f3f1;
+}
+
+a {
+  color: #f3f3f1;
+  text-decoration: none;
+}
+
+.landing-page {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("/icons/food-background.jpg");
+  background-size: cover;
+  background-position: 25%;
+}
+
+.landing-page .logo-text .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffd87d;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .landing-page .logo-text .logo {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-left: 1rem;
+  }
+}
+
+.landing-page .logo-text .logo p {
+  font-size: 1.375rem;
+}
+
+.landing-page .logo-text .logo img {
+  width: 1.2rem;
+  height: auto;
+  margin-right: 0.35rem;
+}
+
+.landing-page .logo-text .landing-text {
+  margin: 2.5rem 0 0 0.5rem;
+  color: #ffff;
+  font-weight: 400;
+}
+
+.landing-page .logo-text .landing-text h1 {
+  font-size: 2.4375rem;
+}
+
+@media (min-width: 600px) {
+  .landing-page .logo-text .landing-text h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .landing-page .logo-text .landing-text h1 #desktop-break {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing-page .logo-text .landing-text h1 {
+    font-size: 4rem;
+  }
+}
+
+.landing-page .logo-text .landing-text h1 span {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .landing-page .logo-text .landing-text h1 span {
+    display: inline;
+  }
+}
+
+.landing-page nav {
+  background-color: #131313;
+  color: #f5f5f5;
+  height: 5rem;
+  padding-top: 0.5rem;
+  font-weight: 300;
+}
+
+@media (min-width: 1024px) {
+  .landing-page nav {
+    height: 3.5rem;
+    background-color: #0f0f0f;
+  }
+}
+
+.landing-page nav ul {
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-size: 1.0625rem;
+}
+
+.tab-options {
+  min-height: 70vh;
+  background-color: #f3f3f1;
+}
+
+@media (min-height: 700px) {
+  .tab-options {
+    min-height: 75vh;
+  }
+}
+
+.tab-options .menu-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1.5rem;
+  margin-right: 3.4rem;
+}
+
+.tab-options .menu-title h1 {
+  text-decoration: underline;
+  margin-left: 1rem;
+  font-size: 2.8125rem;
+}
+
+.tab-options .menu-title img {
+  height: 2.3rem;
+  width: auto;
+}
+
+.tab-options .findUs-contact-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1.5rem;
+  margin-right: 3.4rem;
+}
+
+.tab-options .findUs-contact-title h1 {
+  margin-left: 1rem;
+  font-size: 2.8125rem;
+}
+
+.tab-options .findUs-contact-title img {
+  height: 2.3rem;
+  width: auto;
+  margin-left: 1rem;
+}
+
+.tab-options .menu-items {
+  padding-bottom: 4.7rem;
+}
+
+@media (min-width: 1024px) {
+  .tab-options .menu-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.tab-options .food-menu {
+  width: 80%;
+  margin: 2.5rem auto 2.5rem auto;
+}
+
+@media (min-width: 1024px) {
+  .tab-options .food-menu {
+    width: 12rem;
+  }
+}
+
+.tab-options .food-menu span {
+  display: block;
+}
+
+.tab-options .food-menu h2 {
+  font-size: 2.1875rem;
+  padding-bottom: 1.3rem;
+}
+
+.tab-options .food-menu div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.tab-options .food-menu div h3 {
+  font-weight: 300;
+  font-size: 1.375rem;
+}
+
+.tab-options .food-menu div p {
+  font-weight: 100;
+  font-size: 1.375rem;
+}
+
+.tab-options .food-menu p {
+  font-weight: 300;
+}
+
+.tab-options .find-paragraph {
+  width: 65%;
+  margin: auto;
+  padding-top: 2rem;
+  line-height: 2rem;
+  font-size: 0.9375rem;
+  font-weight: 300;
+}
+
+.tab-options form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.tab-options form input {
+  font-size: 1.125rem;
+  font-weight: 300;
+  width: 13rem;
+  margin: 0 auto 1rem auto;
+  background-color: #f3f3f1;
+  border: none;
+  border-bottom: 1.4px solid #919191;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.tab-options form button {
+  width: 8rem;
+  margin: 2rem auto 0 auto;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffd87d;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #131313;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 6.8rem;
+}
+
+@media (min-width: 1024px) {
+  footer {
+    background-color: #0f0f0f;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0 2.5rem;
+    height: 3.5rem;
+  }
+}
+
+footer p {
+  color: #ffd87d;
+  font-size: 1.875rem;
+  font-weight: 300;
+}
+
+footer .media-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  footer .media-icons {
+    padding: 0;
+  }
+}
+
+footer .media-icons a img {
+  height: 1.5rem;
+  width: auto;
+}
+
+.selected {
+  font-size: 1.375rem;
+  color: #ffd87d;
+  font-weight: 400;
+}
+/*# sourceMappingURL=styles.css.map */
