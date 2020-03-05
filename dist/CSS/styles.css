@@ -158,6 +158,12 @@ a {
   }
 }
 
+@media (min-width: 1024px) {
+  .tab-options {
+    min-height: 86vh;
+  }
+}
+
 .tab-options .menu-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -223,6 +229,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-bottom: 0;
   }
 }
 

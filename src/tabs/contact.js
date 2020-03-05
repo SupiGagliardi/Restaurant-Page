@@ -13,7 +13,7 @@ function contactContent() {
     tabContent.appendChild(findUsContactTitle);
 
     const contactImg = document.createElement('img');
-    contactImg.setAttribute('src', '/icons/logo.svg');
+    contactImg.setAttribute('src', 'icons/logo.svg');
     contactImg.setAttribute('alt', 'Logo');
     findUsContactTitle.appendChild(contactImg);
 
