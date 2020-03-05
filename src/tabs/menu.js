@@ -14,7 +14,7 @@ function menuContent() {
     tabContent.appendChild(menuTitle);
 
     const menuImg = document.createElement('img');
-    menuImg.setAttribute('src', '/icons/logo.svg');
+    menuImg.setAttribute('src', 'icons/logo.svg');
     menuImg.setAttribute('alt', 'Logo');
     menuTitle.appendChild(menuImg);
 
