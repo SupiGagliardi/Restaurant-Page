@@ -46,7 +46,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("/icons/food-background.jpg");
+  background-image: url("../../icons/food-background.jpg");
   background-size: cover;
   background-position: 25%;
 }
