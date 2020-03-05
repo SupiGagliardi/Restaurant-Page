@@ -153,6 +153,10 @@ a {
     min-height: 75vh;
   }
 
+  @include desktop {
+    min-height: 86vh;
+  }
+
   .menu-title {
     display: flex;
     justify-content: center;
@@ -200,6 +204,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-bottom: 0;
     }
   }
 
