@@ -282,12 +282,20 @@ a {
 }
 
 .tab-options .find-paragraph {
-  width: 65%;
+  max-width: 60%;
   margin: auto;
   padding-top: 2rem;
   line-height: 2rem;
   font-size: 0.9375rem;
   font-weight: 300;
+}
+
+@media (min-width: 1024px) {
+  .tab-options .find-paragraph {
+    max-width: 35rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }
 }
 
 .tab-options form {
